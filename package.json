@@ -1,0 +1,21 @@
+{
+  "name": "interview-api-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrytran721/interview-api-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrytran721/interview-api-frontend/issues"
+  },
+  "homepage": "https://github.com/henrytran721/interview-api-frontend#readme"
+}
