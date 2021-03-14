@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/henrytran721/interview-api-frontend/issues"
   },
-  "homepage": "https://github.com/henrytran721/interview-api-frontend#readme"
+  "homepage": "https://github.com/henrytran721/interview-api-frontend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
