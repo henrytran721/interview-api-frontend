@@ -36,7 +36,7 @@ const DetailedInterview = () => {
         let id = url[url.length - 1];
         setId(id);
         
-        axios.get(`https://horsefields.wl.r.appspot.com/api/interview/${id}`)
+        axios.get(`https://thehorsefields.wl.r.appspot.com/api/interview/${id}`)
         .then((res) => {
             setData(res.data);
             console.log(data);

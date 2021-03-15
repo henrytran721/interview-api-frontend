@@ -29,7 +29,7 @@ const DeleteInterview = () => {
 
     function handleDelete() {
         if(input === id) {
-            axios.delete(`https://horsefields.wl.r.appspot.com/api/interview/${id}`)
+            axios.delete(`https://thehorsefields.wl.r.appspot.com/api/interview/${id}`)
             .then(() => {
                 window.location = '/dashboard';
             });
