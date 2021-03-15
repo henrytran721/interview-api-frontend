@@ -41,7 +41,7 @@ const UpdateInterview = () => {
         let id = url[url.length - 1];
         setId(id);
         
-        axios.get(`https://horsefields.wl.r.appspot.com/api/interview/${id}`)
+        axios.get(`https://thehorsefields.wl.r.appspot.com/api/interview/${id}`)
         .then((res) => {
             setInterviewData(res.data);
             setCounter(res.data.questionData.length);
